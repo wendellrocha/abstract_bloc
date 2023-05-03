@@ -1,5 +1,6 @@
-import 'package:abstract_bloc/abstract_bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../state/abstract_state.dart';
 
 class Store<T> extends Cubit<AbstractState> {
   Store() : super(InitialState());
